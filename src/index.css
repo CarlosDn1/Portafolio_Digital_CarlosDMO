@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+#root {
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: black !important;
+    width: 26px !important;
+    height: 26px !important;
+    background: rgba(255, 255, 255, 0.861); /* color blanco translúcido */
+    backdrop-filter: blur(10px); /* desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* compatibilidad con Safari */
+    border-radius: 16px;
+    padding: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra sutil */
+    
+}
