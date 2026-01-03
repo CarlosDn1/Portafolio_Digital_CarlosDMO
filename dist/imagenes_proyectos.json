@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Proyecto 1",
+    "images": [
+      "/images/proyecto1/1.PNG",
+      "/images/proyecto1/2.PNG",
+      "/images/proyecto1/3.PNG"
+    ]
+  },
+  {
+    "title": "Proyecto 2",
+    "images": [
+      "/images/proyecto2/1.png",
+      "/images/proyecto2/2.png"
+    ]
+  }
+]

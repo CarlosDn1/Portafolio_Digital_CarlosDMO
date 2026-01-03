@@ -15,37 +15,54 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
+import img1 from './assets/images/proyecto1_c1.PNG'
+import img2 from './assets/images/proyecto1_c2.PNG'
+import img3 from './assets/images/proyecto1_c3.PNG'
 
+import img4 from './assets/images/proyecto2_c1.PNG'
+import img5 from './assets/images/proyecto2_c2.PNG'
+import img6 from './assets/images/proyecto2_c3.PNG'
 
+import img7 from './assets/images/proyecto3_c1.PNG'
+import img8 from './assets/images/proyecto3_c2.PNG'
+import img9 from './assets/images/proyecto3_c3.PNG'
 
+import img10 from './assets/images/proyecto4_c1.PNG'
+import img11 from './assets/images/proyecto4_c2.PNG'
+import img12 from './assets/images/proyecto4_c3.PNG'
 
-
-
+import imgyo1 from './assets/images/yo1.jpeg'
+import imgyo2 from './assets/images/yo2.jpeg'
 
 import Proyecto from './components/card_proyecto/proyecto';
 
 const images_proyecto1 = [
-  { imgSrc: "/images/proyecto1_c1.PNG" },
-  { imgSrc: "/images/proyecto1_c2.PNG" },
-  { imgSrc: "/images/proyecto1_c3.PNG" },
+  { imgSrc: img1 },
+  { imgSrc: img2 },
+  { imgSrc: img3 },
 ]
 
 const images_proyecto2 = [
-  { imgSrc: "/images/proyecto2_c1.PNG" },
-  { imgSrc: "/images/proyecto2_c2.PNG" },
-  { imgSrc: "/images/proyecto2_c3.PNG" },
+  { imgSrc: img4 },
+  { imgSrc: img5 },
+  { imgSrc: img6 },
 ]
 
 const images_proyecto3 = [
-  { imgSrc: "/images/proyecto3_c1.PNG" },
-  { imgSrc: "/images/proyecto3_c2.PNG" },
-  { imgSrc: "/images/proyecto3_c3.PNG" },
+  { imgSrc: img7 },
+  { imgSrc: img8 },
+  { imgSrc: img9 },
 ]
 
 const images_proyecto4 = [
-  { imgSrc: "/images/proyecto4_c1.PNG" },
-  { imgSrc: "/images/proyecto4_c2.PNG" },
-  { imgSrc: "/images/proyecto4_c3.PNG" },
+  { imgSrc: img10 },
+  { imgSrc: img11 },
+  { imgSrc: img12 },
+]
+
+const images_yo = [
+  { imgSrc: imgyo1 },
+  { imgSrc: imgyo2 },
 ]
 
 function App() {
@@ -73,7 +90,7 @@ function App() {
 
       <section id="sobre-mi" className="max-w-4xl w-full shadow-lg bg-[#1D7386] rounded-l-full flex flex-row p-4 items-center space-x-6">  
           <div className="w-[200px] h-[200px] bg-[#0B132B] rounded-full overflow-hidden ">
-            <img src="/images/yo2.jpeg" alt="Yo" className="shadow-lg"/>
+            <img src={imgyo2} alt="Yo" className="shadow-lg"/>
           </div> 
           <div></div>
           <div className="flex flex-col justify-center ml-4">
