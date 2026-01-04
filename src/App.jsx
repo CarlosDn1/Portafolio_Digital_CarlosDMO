@@ -202,56 +202,56 @@ function App() {
               <h3 className="text-2xl font-semibold mb-2">Tienda de ropa</h3>
               <div className="w-[400px] h-[234px] bg-gradient-to-r from-red-500 to-yellow-600 p-4 py-4 rounded-lg shadow-md relative">
               <Proyecto images={images_proyecto1} />
-              <button
+              <a
                 href="https://carlosdn1.github.io/tienda_enlinea/"
                 target="_blank"
                 className="bg-white text-black py-[6px] px-[6px] rounded-md relative left-82 bottom-9 z-1 w-[30px] h-[30px] flex items-center justify-center shadow-xl 
                 transition duration-200 border border-transparent hover:bg-[#AFBFC0] hover:border-black hover:cursor-pointer"
               >
                 <FaGithub />
-              </button>
+              </a>
               </div>
             </div>
             <div className="bg-[#0B132B] p-4 rounded-lg shadow-md text-white">
               <h3 className="text-2xl font-semibold mb-2"> Servicio Adopcion Mascotas </h3>
               <div className="w-[400px] h-[234px] bg-gradient-to-r from-red-500 to-yellow-600 p-4 py-4 rounded-lg shadow-md relative">
               <Proyecto images={images_proyecto2} />
-              <button
+              <a
                 href="https://carlosdn1.github.io/adopcion_web.github.io/"
                 target="_blank"
                 className="bg-white text-black py-[6px] px-[6px] rounded-md relative left-82 bottom-9 z-1 w-[30px] h-[30px] flex items-center justify-center shadow-xl 
                 transition duration-200 border border-transparent hover:bg-[#AFBFC0] hover:border-black hover:cursor-pointer"
               >
                 <FaGithub />
-              </button>
+              </a>
               </div>
             </div>
             <div className="bg-[#0B132B] p-4 rounded-lg shadow-md text-white ">
               <h3 className="text-2xl font-semibold mb-2">Tienda de componentes de PC</h3>
               <div className="w-[400px] h-[234px] bg-gradient-to-r from-red-500 to-yellow-600 p-4 py-4 rounded-lg shadow-md relative">
               <Proyecto images={images_proyecto3} />
-              <button
+              <a
                 href="https://carlosdn1.github.io/TecnoParts.github.io/"
                 target="_blank"
                 className="bg-white text-black py-[6px] px-[6px] rounded-md relative left-82 bottom-9 z-1 w-[30px] h-[30px] flex items-center justify-center shadow-xl 
                 transition duration-200 border border-transparent hover:bg-[#AFBFC0] hover:border-black hover:cursor-pointer"
               >
                 <FaGithub />
-              </button>
+              </a>
               </div>
             </div>
             <div className="bg-[#0B132B] p-4 rounded-lg shadow-md text-white">
               <h3 className="text-2xl font-semibold mb-2">Escuela CEULDP</h3>
               <div className="w-[400px] h-[234px] bg-gradient-to-r from-red-500 to-yellow-600 p-4 py-4 rounded-lg shadow-md relative">
               <Proyecto images={images_proyecto4} />
-              <button
+              <a
                 href="https://carlosdn1.github.io/escuela_web.github.io/"
                 target="_blank"
                 className="bg-white text-black py-[6px] px-[6px] rounded-md relative left-82 bottom-9 z-1 w-[30px] h-[30px] flex items-center justify-center shadow-xl 
                 transition duration-200 border border-transparent hover:bg-[#AFBFC0] hover:border-black hover:cursor-pointer"
               >
                 <FaGithub />
-              </button>
+              </a>
               </div>
             </div>
           </div>
