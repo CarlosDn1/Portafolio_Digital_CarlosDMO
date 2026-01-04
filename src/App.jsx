@@ -203,6 +203,8 @@ function App() {
               <div className="w-[400px] h-[234px] bg-gradient-to-r from-red-500 to-yellow-600 p-4 py-4 rounded-lg shadow-md relative">
               <Proyecto images={images_proyecto1} />
               <button
+                href="https://carlosdn1.github.io/tienda_enlinea/"
+                target="_blank"
                 className="bg-white text-black py-[6px] px-[6px] rounded-md relative left-82 bottom-9 z-1 w-[30px] h-[30px] flex items-center justify-center shadow-xl 
                 transition duration-200 border border-transparent hover:bg-[#AFBFC0] hover:border-black hover:cursor-pointer"
               >
@@ -215,6 +217,8 @@ function App() {
               <div className="w-[400px] h-[234px] bg-gradient-to-r from-red-500 to-yellow-600 p-4 py-4 rounded-lg shadow-md relative">
               <Proyecto images={images_proyecto2} />
               <button
+                href="https://carlosdn1.github.io/adopcion_web.github.io/"
+                target="_blank"
                 className="bg-white text-black py-[6px] px-[6px] rounded-md relative left-82 bottom-9 z-1 w-[30px] h-[30px] flex items-center justify-center shadow-xl 
                 transition duration-200 border border-transparent hover:bg-[#AFBFC0] hover:border-black hover:cursor-pointer"
               >
@@ -227,6 +231,8 @@ function App() {
               <div className="w-[400px] h-[234px] bg-gradient-to-r from-red-500 to-yellow-600 p-4 py-4 rounded-lg shadow-md relative">
               <Proyecto images={images_proyecto3} />
               <button
+                href="https://carlosdn1.github.io/TecnoParts.github.io/"
+                target="_blank"
                 className="bg-white text-black py-[6px] px-[6px] rounded-md relative left-82 bottom-9 z-1 w-[30px] h-[30px] flex items-center justify-center shadow-xl 
                 transition duration-200 border border-transparent hover:bg-[#AFBFC0] hover:border-black hover:cursor-pointer"
               >
@@ -239,6 +245,8 @@ function App() {
               <div className="w-[400px] h-[234px] bg-gradient-to-r from-red-500 to-yellow-600 p-4 py-4 rounded-lg shadow-md relative">
               <Proyecto images={images_proyecto4} />
               <button
+                href="https://carlosdn1.github.io/escuela_web.github.io/"
+                target="_blank"
                 className="bg-white text-black py-[6px] px-[6px] rounded-md relative left-82 bottom-9 z-1 w-[30px] h-[30px] flex items-center justify-center shadow-xl 
                 transition duration-200 border border-transparent hover:bg-[#AFBFC0] hover:border-black hover:cursor-pointer"
               >
